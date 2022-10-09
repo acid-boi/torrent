@@ -46,3 +46,4 @@ print("Elapsed Time: ",int((end-begin)//60),"min :", int((end-begin)%60), "sec")
 print(datetime.datetime.now())
 query = f'zip -r downloaded.zip Downloads/current'
 os.system(query)
+os.system("rm -r Downloads/current/*")
